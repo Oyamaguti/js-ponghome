@@ -30,9 +30,9 @@ let pausaTempo = 3000
 let pausaInicio = 0
 
 function preload() {
-  ponto = loadSound("Ponto.mp3")
+  ponto = loadSound("ponto.mp3")
   raquetada = loadSound("Raquetada.mp3")
-  trilha = loadSound("Trilha.wav")
+  trilha = loadSound("trilha.wav")
 }
 
 function setup() {
