@@ -32,7 +32,7 @@ let pausaInicio = 0
 function preload() {
   ponto = loadSound("ponto.mp3")
   raquetada = loadSound("Raquetada.mp3")
-  trilha = loadSound("trilha.wav")
+  trilha = loadSound("trilha.mp3")
 }
 
 function setup() {
