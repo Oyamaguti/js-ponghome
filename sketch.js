@@ -30,9 +30,9 @@ let pausaTempo = 3000
 let pausaInicio = 0
 
 function preload() {
-  ponto = loadSound("ponto.mp3")
+  ponto = loadSound("Ponto.mp3")
   raquetada = loadSound("Raquetada.mp3")
-  trilha = loadSound("trilha.mp3")
+  trilha = loadSound("Trilha.mp3")
 }
 
 function setup() {
@@ -52,7 +52,6 @@ var res = confirm("Você deseja jogar com 1 jogador?")
       verificaColisao()
       mostraRaquete(xRaquete, yRaquete)
       movimentaMinhaRaquete()
-      //verificaColisaoRaquete()
       colisaoRaquete(xRaquete, yRaquete)
       mostraRaquete(xRaqueteOp, yRaqueteOp)
       movimentaRaqueteOp()
@@ -192,7 +191,6 @@ if (res == false) {
       verificaColisao()
       mostraRaquete(xRaquete, yRaquete)
       movimentaMinhaRaquete()
-      //verificaColisaoRaquete()
       colisaoRaquete(xRaquete, yRaquete)
       mostraRaquete(xRaqueteOp, yRaqueteOp)
       movimentaRaqueteOp()
